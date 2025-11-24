@@ -17,7 +17,7 @@ public class CustomerController {
         Customer customer = new Customer(1, "Hugo Ramalho", "hugo@email.com", "+351 968 567 589");
 
         // add customer to the model. Spring passes this to JSP automatically
-        model.addAttribute("user", customer);
+        model.addAttribute("customer", customer);
 
         // return the view name. Spring's ViewResolver will find "index.jsp"
         return "index";

@@ -11,12 +11,12 @@
     <title>Customer Details</title>
 </head>
 <body>
-<h1><i class="fa fa-bank"></i> JAVABANK - Customer #${user.id}</h1>
+<h1><i class="fa fa-bank"></i> JAVABANK - Customer #${customer.id}</h1>
 
-<h2><i class="fa fa-user"></i>${user.name}</h2>
+<h2><i class="fa fa-user"></i>${customer.name}</h2>
 
-<p><i class="fa fa-envelope"></i> Email: ${user.email}</p>
+<p><i class="fa fa-envelope"></i> Email: ${customer.email}</p>
 
-<p><i class="fa fa-mobile-phone"></i> Phone: ${user.phone}</p>
+<p><i class="fa fa-mobile-phone"></i> Phone: ${customer.phone}</p>
 </body>
 </html>
